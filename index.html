@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monster Hunter: World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="banner">
+    <img src="./img/monster-hunter-world_max.jpg" alt="Banner">
+  </div>
+  
+  <h1>Monster Hunter: World</h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search...">
+    <button id="searchButton">Search</button>
+  </div>
+
+  <div class="filters">
+    <label for="filterSelect">Filter by:</label>
+    <select id="filterSelect">
+      <option value="all">All</option>
+      <option value="ailments">Ailments</option>
+      <option value="monsters">Monsters</option>
+      <option value="weapons">Weapons</option>
+      <option value="armor">Armor</option>
+    </select>
+  </div>
+
+  <div id="dataList"></div>
+
+  <button id="scrollButton" title="Scroll to Top">↑</button>
+
+  <script src="mhw.js"></script>
+</body>
+</html>
